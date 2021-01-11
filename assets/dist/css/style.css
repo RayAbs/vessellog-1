@@ -1,0 +1,47 @@
+/* Ensure that the demo table scrolls */
+th, td { white-space: nowrap; }
+div.dataTables_wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* FOR */
+.noactioncell{          
+    background-color: #FF0000;
+}
+
+.donecell{
+    background-color: #218838;
+}
+
+#vesselname, #lastport, #nextport{
+    text-transform: uppercase;
+}
+
+.highlight{
+    background-color: yellow;
+    font-weight: bold;
+}
+
+.etd_div{
+    display: none;
+}
+/* SHOW OR HIDE PASSWORD CURSOR */
+#show_hide_password
+{
+    cursor: pointer;
+}
+/* SHOW OR HIDE PASSWORD */
+.fa-eye{
+    color: #1274F2;
+}
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+}
+
+/*.table-bordered > tbody > tr > td, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > td, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > thead > tr > th {
+    border: 1px solid black;
+}*/

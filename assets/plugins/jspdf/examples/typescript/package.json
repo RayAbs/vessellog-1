@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "dependencies": {
+    "jspdf": "^2.0.0",
+    "jspdf-autotable": "^3.5.7"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.27",
+    "browserify": "^16.5.2",
+    "tsify": "^5.0.1",
+    "typescript": "^3.9.7"
+  },
+  "scripts": {
+    "build": "browserify index.ts -p [ tsify ] > index.js"
+  }
+}
